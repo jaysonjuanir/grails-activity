@@ -55,7 +55,7 @@
 							</form>
 						</td>
 						<td>
-							<form method="get">
+							<form method="post">
 								<g:hiddenField name="id" value="${role.id}" />
 								<g:actionSubmit action="deleteRole" value="Delete This Role"/>
 							</form>
